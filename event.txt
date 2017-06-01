@@ -1,0 +1,4 @@
+KpiUserAdd
+KpiWalletSettlement
+KpiDiamondConsumption
+KpiLogin
