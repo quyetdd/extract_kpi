@@ -3,7 +3,7 @@
 error 403 --> setenforece 0
 extract and loading transform db
 
-sed '{ sub(/2016-02-01$/, "2017-02-01", $3) }1' file.log > output.log
+sed '{ sub(/2016-02-01$/, "2017-02-01", $3) }1' file.log > output.log  (them \g)
 
 
 1. Tại sao cần thiết có 1 ứng dụng riêng cho việc phân tích KPI 
