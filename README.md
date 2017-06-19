@@ -1,6 +1,6 @@
 # extract_kpi
 
-error 403 --> setenforece 0
+
 extract and loading transform db
 
 sed '{ sub(/2016-02-01$/, "2017-02-01", $3) }1' file.log > output.log  (them \g)
@@ -35,7 +35,7 @@ sed '{ sub(/2016-02-01$/, "2017-02-01", $3) }1' file.log > output.log  (them \g)
  + client SDK cần viết cho 1 nền tảng (unity) hay nhiều nền tảng 
  + đối với game thì việc phân tích tracking thời gian chơi (có yêu cầu đó là socket hay không hay sử dụng đơn giản là http keep-alive có timeout)
 
-
+setenforece 0
 DAU - All users who have launched the App on that day
 
 MAU - All users who have launched the App at least once in that month
